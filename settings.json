@@ -1,0 +1,141 @@
+{
+  //----Demos----
+  "update.mode": "none",
+  "extensions.autoCheckUpdates": false,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  //----Settings----
+  "workbench.settings.editor": "json",
+  //----Editing----
+  "editor.fontFamily": "'Cascadia Code', Monaco, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "files.defaultLanguage": "${activeEditorLanguage}",
+  "emmet.triggerExpansionOnTab": true,
+  "editor.wordWrap": "on",
+  "diffEditor.wordWrap": "on",
+  "editor.mouseWheelZoom": true,
+  //"editor.suggest.showStatusBar": true,
+  //"editor.suggest.insertMode":"insert",
+  "editor.links": true,
+  "editor.minimap.showSlider": "always",
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.dragAndDrop": true,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.hotExit": "onExitAndWindowClose",
+  "powermode.enabled": true,
+  //----Workbench----
+  "workbench.editor.closeOnFileDelete": false,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.editor.wrapTabs": false,
+  // ----Theme----
+
+  "workbench.colorTheme": "Azure Dark Color Theme",
+  "workbench.colorCustomizations": {
+    "[Azure Dark Color Theme]": {
+      "editor.foreground": "#a6accdff",
+      "editor.background": "#282a36",
+// 
+      "editor.snippetTabstopHighlightBackground": "#ff79c6",
+      "activityBarBadge.background": "#a6accdff",
+      "activityBarBadge.foreground": "#1d212f",
+      "editor.selectionHighlightBackground": "#00000000",
+      "editor.symbolHighlightBackground": "#a6accdff",
+      "panel.border": "#a6accdff",
+      "badge.background": "#a6accdff",
+      "badge.foreground": "#1d212f",
+      "editorLineNumber.foreground": "#a6accdff",
+      "editorLineNumber.activeForeground": "#27e8a7ff",
+      "editorIndentGuide.background": "#ddd2d29c",
+      "debugToolBar.background": "#4d3268",
+      "tab.border": "#1d212f",
+      "tab.activeBackground": "#8b4488a6",
+      "tab.lastPinnedBorder": "#e9e100",
+      "terminal.foreground": "#00FD61",
+      "terminal.background": "#a58fa74d",
+      "titleBar.activeForeground": "#000000",
+      "titleBar.activeBackground": "#a6accdff"
+    }
+  },
+  //----Debug----
+  "debug.inlineValues": true,
+  "debug.showInStatusBar": "always",
+  "debug.toolBarLocation": "floating",
+  //----Git and GitHub----
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  //----Terminal----
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1,
+  // ---Gitbash as terminal
+  "#terminal.integrated.profiles.windows#": "C:\\Program Files\\Git\\bin\\bash.exe",
+  //----Typescript----
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // ---- main feature
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "code-runner.runInTerminal": true,
+  "extensions.autoUpdate": true,
+  //     "editor.formatOnSaveMode": "modifications",
+  // ---- formating text : formater ----
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.linkedEditing": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "[scss]": {
+    // "editor.defaultFormatter": "Wscats.eno"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.lineHeight": 30,
+  "editor.cursorWidth": 4,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.untitled.hint": "hidden",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "json.maxItemsComputed": 6000,
+  "[markdown]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  // tailwind
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  }
+}
